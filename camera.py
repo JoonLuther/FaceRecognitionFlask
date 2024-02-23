@@ -57,6 +57,7 @@ import cv2
 import pickle
 from imutils.video import WebcamVideoStream
 import face_recognition
+from sklearn.neighbors import _dist_metrics
 
 
 class VideoCamera(object):
